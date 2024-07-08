@@ -15,9 +15,12 @@ La API de Alura Foro Hub cuenta con los siguientes endpoints para la gestión de
 - **Cuerpo de la solicitud:**
   ```json
   {
-      "titulo": "String",
-      "mensaje": "String",
-      "autor": "String"
+        "autor": number,
+        "curso": number,
+        "estatus": string,
+        "fecha": date,
+        "mensaje": string,
+        "titulo": string  
   }
   ```
 
