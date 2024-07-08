@@ -43,7 +43,9 @@ La API de Alura Foro Hub cuenta con los siguientes endpoints para la gestión de
   {
       "id": "Long",
       "titulo": "String",
-      "mensaje": "String"
+      "mensaje": "String",
+      "estatus":  "string",
+      "fecha": "date",
   }
   ```
 
